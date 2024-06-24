@@ -1,0 +1,54 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  background: #2196F3;
+  padding-left: 62px;
+
+  @media (max-width: 444px) {
+    padding-left: 30px;
+  }
+
+  .header_link {
+    border: 0;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 21px 26px 23px 23px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    color: #2196F3;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    @media (max-width: 444px) {
+      font-size: 16px;
+    }
+  }
+
+  .kosygin {
+    position: relative;
+    top: 40px;
+    background: #FFFFFF;
+    font-size: 20px;
+    padding: 20px;
+    color: #2196F3;
+    border-radius: 15px;
+    border: 2px solid #2196F3;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.focused {
+  background: #1E88E5 !important;
+  color: #FFFFFF !important;
+}

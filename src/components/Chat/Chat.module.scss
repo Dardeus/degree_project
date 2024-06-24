@@ -1,0 +1,31 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  font-size: 18px;
+  border: #2196F3 solid 2px;
+  border-radius: 5px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+
+  .sendMessage {
+    border: 1px solid #2196F3;
+    border-radius: 15px;
+    margin: 30px 10px 10px 10px;
+    .input {
+      position: relative;
+      font-size: 22px;
+      border: 0;
+      top: -10px;
+      padding: 7px;
+      margin-left: 20px;
+    }
+
+    .send {
+      position: relative;
+      top: 7px;
+      left: 8px;
+      cursor: pointer;
+    }
+  }
+}
