@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/degree_project/static/css/main.0f8a931a.css",
+    "main.js": "/degree_project/static/js/main.97ea7d12.js",
+    "static/media/3.png": "/degree_project/static/media/3.ec72b6dc1a12dcd0ec9c.png",
+    "static/media/4.png": "/degree_project/static/media/4.3028ca431650a0062c7f.png",
+    "static/media/1.png": "/degree_project/static/media/1.4d2e65d5d8c2a16d54ea.png",
+    "static/media/6.png": "/degree_project/static/media/6.17fec8cde6e65a6d0c43.png",
+    "static/media/5.png": "/degree_project/static/media/5.1d8bb06b8d60d3b9a472.png",
+    "static/media/2.png": "/degree_project/static/media/2.1e9ffff5e6097a1675e0.png",
+    "static/media/7.png": "/degree_project/static/media/7.2ca975acc6b843d8b098.png",
+    "static/media/8.png": "/degree_project/static/media/8.731eb7e5db3900583212.png",
+    "static/media/stepan.jpg": "/degree_project/static/media/stepan.348d3ade5deda5b649d1.jpg",
+    "static/media/alex.jpg": "/degree_project/static/media/alex.79f959fffd7b21b3c889.jpg",
+    "static/media/elena.jpg": "/degree_project/static/media/elena.1d5d5ba62e795fe90e2c.jpg",
+    "static/media/kosygin.jpg": "/degree_project/static/media/kosygin.e8c90a51d266be339501.jpg",
+    "static/media/vlad.jpg": "/degree_project/static/media/vlad.f3f0a00b0fb15e370d39.jpg",
+    "index.html": "/degree_project/index.html",
+    "main.0f8a931a.css.map": "/degree_project/static/css/main.0f8a931a.css.map",
+    "main.97ea7d12.js.map": "/degree_project/static/js/main.97ea7d12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f8a931a.css",
+    "static/js/main.97ea7d12.js"
+  ]
+}
