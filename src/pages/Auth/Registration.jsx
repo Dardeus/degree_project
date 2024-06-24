@@ -8,7 +8,7 @@ const Registration = () => {
       <div className={styles.root}>
         <h1>Регистрация</h1>
         <AuthForm regLog={"registration"}/>
-        <Link to='/auth'
+        <Link to='/degree_project/auth'
               className={styles.link}
         >
           Назад ко входу

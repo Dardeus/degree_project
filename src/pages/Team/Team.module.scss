@@ -1,6 +1,6 @@
 .root {
   font-size: 24px;
-  width: 800px;
+  width: 1000px;
   margin-top: 75px;
   margin-left: auto;
   margin-right: auto;
@@ -14,8 +14,6 @@
   }
 
   .tab {
-    borgder: 1px solid #1E88E5;
-    bordger-radius: 4px;
     padding: 10px;
 
     .tab_buttons {
@@ -23,11 +21,11 @@
       button {
         font-size: 20px;
         background: #FFFFFF;
-        border-radius: 5px;
-        border: 1px solid #1E88E5;
+        border-radius: 5px 5px 0 0;
+        border: 2px solid #d9b84a;
         border-bottom: none;
         padding: 5px;
-        color: #1E88E5;
+        color: #6e5807;
 
         &:hover {
           cursor: pointer;
@@ -43,7 +41,7 @@
 
     .content {
       position: relative;
-      border: 1px solid #1E88E5;
+      border: 2px solid #d9b84a;
       top: -11px;
       border-radius: 5px;
     }

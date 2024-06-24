@@ -16,7 +16,7 @@ const Auth = ({setActiveChapter}) => {
   return (<div className={styles.root}>
     <h1>Вход в систему</h1>
     <AuthForm regLog="login"/>
-    <Link to='/auth/registration'
+    <Link to='/degree_project/auth/registration'
           className={styles.link}
     >
       Зарегистрировать аккаунт

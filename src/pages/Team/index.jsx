@@ -30,6 +30,7 @@ const Team = () => {
           <div className={styles.tab_buttons}>
             {names.map((n, i) => (
                 <button
+                    key={i}
                     className={i === active ? styles.focused : ' '}
                     onClick={openTab}
                     data-index={i}

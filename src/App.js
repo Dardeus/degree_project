@@ -20,12 +20,12 @@ function App() {
         <div className="Page">
           <Chat/>
           <Routes>
-            <Route path="/future" element={<Future/>}/>
-            <Route path="/auth" element={<Auth/>}/>
-            <Route path="/auth/registration" element={<Registration/>}/>
-            <Route path="/team" element={<Team/>}/>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/dimension" element={<Dimension/>}/>
+            <Route path="/degree_project/" element={<Home/>}/>
+            <Route path="/degree_project/future" element={<Future/>}/>
+            <Route path="/degree_project/auth" element={<Auth/>}/>
+            <Route path="/degree_project/dimension" element={<Dimension/>}/>
+            <Route path="/degree_project/auth/registration" element={<Registration/>}/>
+            <Route path="/degree_project/team" element={<Team/>}/>
           </Routes>
           <KosyginButton/>
         </div>

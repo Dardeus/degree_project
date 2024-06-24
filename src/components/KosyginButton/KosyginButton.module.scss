@@ -1,5 +1,6 @@
 .root {
   //position:relative;
+  display: flex;
   width: 300px;
 
   .image {
@@ -8,7 +9,6 @@
     position: absolute;
     bottom: 0px;
     right: 0px;
-    margin-top: auto;
     height: 200px;
 
     &:hover {

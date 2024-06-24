@@ -36,7 +36,7 @@ const AuthForm = ({regLog}) => {
       dispatch(setLogIn(true))
       dispatch(setPassword(""))
       setError('')
-      navigate('/')
+      navigate('/degree_project/')
     } catch (e) {
       dispatch(setPassword(""))
       setError("Wrong enter")
@@ -65,7 +65,7 @@ const AuthForm = ({regLog}) => {
           }
       )
       setError('')
-      navigate('/auth')
+      navigate('/degree_project/auth')
     } catch (e) {
       dispatch(setPassword(""))
       setError("Wrong enter")

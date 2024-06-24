@@ -10,8 +10,8 @@ const KosyginButton = () => {
 
   return (
       <div className={styles.root}>
-        {!pathname.startsWith('/auth')  &&
-            <img onClick={() => navigate('/auth')} className={styles.image} src={kosygin} alt='kosygin'/>}
+        {!pathname.startsWith('/degree_project/auth')  &&
+            <img onClick={() => navigate('/degree_project/auth')} className={styles.image} src={kosygin} alt='kosygin'/>}
       </div>
   )
 }
