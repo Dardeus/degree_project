@@ -1,4 +1,4 @@
 # Сайт ВУЗа
-Ссылка на сайт: https://dardeus.github.io/degree_project.git
+Ссылка на сайт: https://dardeus.github.io/degree_project/
 
 
