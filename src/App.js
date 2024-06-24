@@ -1,7 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
 import "./app.scss"
-import {Navigate, Route, Routes, useLocation} from "react-router-dom";
-import {useSelector} from "react-redux";
+import {Route, Routes} from "react-router-dom";
 import Header from "./components/Header";
 import Auth from "./pages/Auth";
 import Team from "./pages/Team";
@@ -10,6 +9,7 @@ import Chat from "./components/Chat";
 import Dimension from "./pages/Dimension";
 import Future from "./pages/Future";
 import Home from "./pages/Home";
+import KosyginButton from "./components/KosyginButton";
 
 
 function App() {
@@ -27,6 +27,7 @@ function App() {
             <Route path="/" element={<Home/>}/>
             <Route path="/dimension" element={<Dimension/>}/>
           </Routes>
+          <KosyginButton/>
         </div>
       </div>
   );

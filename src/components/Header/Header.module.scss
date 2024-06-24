@@ -32,6 +32,15 @@
     }
   }
 
+  .inactive {
+    background: lightslategray;
+    color: white;
+
+    &:hover {
+      cursor: auto;
+    }
+  }
+
   .kosygin {
     position: relative;
     top: 40px;

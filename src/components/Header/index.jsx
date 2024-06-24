@@ -2,20 +2,19 @@ import React, {Dispatch, SetStateAction, useEffect} from "react";
 import styles from './Header.module.scss'
 import {useLocation, useNavigate} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
-import {setLogIn, setUsername} from "../../redux/slices/authState";
+import {setUsername} from "../../redux/slices/authState";
 
 
 const Header = () => {
   const navigate = useNavigate()
-  const {username, logIn} = useSelector((state) => state.auth)
+  const {logIn} = useSelector((state) => state.auth)
   const dispatch = useDispatch()
 
   const { pathname } = useLocation()
-  console.log(pathname);
 
   useEffect(() => {
     if (!logIn) {
-      dispatch(setUsername("Абитуриент"))
+      dispatch(setUsername(""))
     }
   }, [logIn])
 
@@ -57,12 +56,9 @@ const Header = () => {
             Третье измерение
           </button>
           <button
-              className={styles.header_link + (pathname === "/auth" ? ' ' + styles.focused : ' ')}
-              onClick={() => {
-                navigate('/auth')
-              }}
+              className={styles.header_link + ' ' + styles.inactive}
           >
-            {logIn ? 'Сменить пользователя' : 'Войти в систему'}
+            Взгляд сквозь время
           </button>
         </div>
       </div>

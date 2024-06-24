@@ -1,12 +1,10 @@
 .root {
   font-size: 24px;
-
+  width: 800px;
   margin-top: 75px;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  background-color: white;
   padding: 10px;
   height: 500px;
 
@@ -16,22 +14,38 @@
   }
 
   .tab {
-    margin: 10px;
-    button {
-      font-size: 20px;
-      background: #FFFFFF;
-      border-radius: 5px;
-      border: 1px solid #1E88E5;
-      padding: 5px;
-      color: #1E88E5;
+    borgder: 1px solid #1E88E5;
+    bordger-radius: 4px;
+    padding: 10px;
 
-      &:hover {
-        cursor: pointer;
+    .tab_buttons {
+      margin: 10px;
+      button {
+        font-size: 20px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        border: 1px solid #1E88E5;
+        border-bottom: none;
+        padding: 5px;
+        color: #1E88E5;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      .focused {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
       }
     }
 
-    .focused {
-      padding: 10px;
+    .content {
+      position: relative;
+      border: 1px solid #1E88E5;
+      top: -11px;
+      border-radius: 5px;
     }
   }
 }

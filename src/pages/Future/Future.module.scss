@@ -1,11 +1,18 @@
 .root {
   display: flex;
-  font-size: 20px;
 
   width: 900px;
 
-  padding-top: 150px;
+  padding-top: 110px;
   margin-right: auto;
   margin-left: auto;
+
+  iframe {
+    border-radius: 10px;
+    border: 2px solid #1E88E5;
+    margin: 20px;
+    width: 100%;
+    height: 640px;
+  }
 
 }

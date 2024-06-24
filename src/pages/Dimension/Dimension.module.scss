@@ -1,11 +1,53 @@
 .root {
+  $margin-size: 100px;
   display: flex;
+  flex-direction: column;
   font-size: 20px;
 
   width: 900px;
 
-  padding-top: 150px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-top: 90px;
+  margin-right: $margin-size;
+  margin-left: $margin-size;
+
+  h1 {
+    margin-bottom: 20px;
+    color: #1E88E5;
+  }
+
+  .cover {
+    float: left;
+    width: 550px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border-bottom: 10px;
+  }
+
+  .images {
+    display: flex;
+    flex-direction: row;
+
+    overflow: auto;
+    scrollbar-color: #1E88E5 #e4e4e4;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    img {
+      width: 400px;
+      margin-right: 10px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    background: #2196F3;
+    border: 1px solid #2196F3;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+  }
 
 }

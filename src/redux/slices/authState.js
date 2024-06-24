@@ -1,7 +1,7 @@
-import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
+import {createSlice} from "@reduxjs/toolkit";
 
 const initialState = {
-  username: localStorage.getItem('username') || "Абитуриент #",
+  username: localStorage.getItem('username'),
   password: '',
   logIn: localStorage.getItem('logIn') || false,
 }

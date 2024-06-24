@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import AuthForm from "../../components/AuthForm";
 import styles from "./Auth.module.scss"
 import {Link} from "react-router-dom";
-import {setLogIn, setPassword, setUsername} from "../../redux/slices/authState";
+import {setLogIn} from "../../redux/slices/authState";
 import {useDispatch} from "react-redux";
 
 
