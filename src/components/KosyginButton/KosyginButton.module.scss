@@ -1,12 +1,10 @@
 .root {
-  //position:relative;
-  display: flex;
   width: 300px;
 
   .image {
     border-radius: 10px;
     border: 4px solid #2196F3;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     right: 0px;
     height: 200px;

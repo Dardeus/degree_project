@@ -12,11 +12,20 @@
   padding-bottom: 15px;
   margin-right: 100px;
 
+  @media (max-width: 1600px){
+    width: 300px;
+  }
+
   .sendMessage {
     border: 1px solid #2196F3;
     border-radius: 15px;
     margin: 30px 10px 10px 10px;
     width: 370px;
+
+    @media (max-width: 1600px){
+      width: 270px;
+    }
+
     .input {
       position: relative;
       font-size: 22px;
@@ -24,13 +33,27 @@
       top: -10px;
       padding: 7px;
       margin-left: 20px;
+
+      @media (max-width: 1600px){
+        font-size: 18px;
+        top: -5px;
+        padding-left: 2px;
+        padding-bottom: 9px;
+        padding-right: 0;
+        margin-left: 10px;
+      }
     }
 
     .send {
       position: relative;
       top: 7px;
-      left: 8px;
+      right: 0px;
       cursor: pointer;
+
+      @media (max-width: 1600px){
+        width: 35px;
+        right: 15px;
+      }
     }
   }
 }

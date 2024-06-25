@@ -8,6 +8,7 @@ const Home = () => {
   const download_link =
       'https://vk.com/doc208567886_675657434?hash=MyqDkR136Ek0YB82TbOEfKXeEB4QdRgSzzB3vR3Q02L&dl=' +
       'RrDSLG9Cb26iKUIpNzzcG6AjhJdbMFk207iLTQi48jz'
+
   return (
       <div className={styles.root}>
         <h1>Интерактивный 3D тур по РГУ им. А.Н. Косыгина</h1>
