@@ -1,4 +1,4 @@
-import React, {Dispatch, SetStateAction, useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import styles from './Chat.module.scss'
 import {useDispatch, useSelector} from "react-redux";
 import {fetchMessages} from "../../redux/slices/chatState";
@@ -7,7 +7,7 @@ import axios from "axios";
 import send from '../../assets/images/send.png'
 
 
-const Chat= ({ setActiveChapter}) => {
+const Chat= () => {
   const {items} = useSelector((state) => state.chat)
   const {username} = useSelector((state) => state.auth)
   const dispatch = useDispatch()

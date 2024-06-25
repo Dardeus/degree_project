@@ -1,4 +1,4 @@
-import React, {Dispatch, SetStateAction, useEffect} from "react";
+import React, {useEffect} from "react";
 import styles from './Header.module.scss'
 import {useLocation, useNavigate} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";

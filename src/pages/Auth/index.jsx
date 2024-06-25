@@ -6,7 +6,7 @@ import {setLogIn} from "../../redux/slices/authState";
 import {useDispatch} from "react-redux";
 
 
-const Auth = ({setActiveChapter}) => {
+const Auth = () => {
   const dispatch = useDispatch()
 
   useEffect(() => {
